@@ -34,12 +34,12 @@ def main():
       fish_found = is_image_within_image(small_image, big_image_path)
 
       if fish_found:
-         print("Postoji")
+         print("Found a fish!")
          pyautogui.rightClick()
          time.sleep(0.2)
          pyautogui.rightClick()
       else:
-         print("Ne postoji")
+         print("No fishes around.")
       
       # Define sleep_time - how much will program wait before checking again, change this number if needed - lower to increase accuracy at the cost of performance
       sleep_time = 0.35
