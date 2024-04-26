@@ -36,3 +36,6 @@ git clone https://github.com/TheBrunoPetkovic/Minecraft-Fishing-Bot.git
 
 ## Disclaimer
 This script is intended for educational purposes only. Usage of automated scripts in multiplayer environments may violate the terms of service of the game. Use at your own risk.
+
+## Notes
+Minecraft must be in windowed mode at maximum window size
