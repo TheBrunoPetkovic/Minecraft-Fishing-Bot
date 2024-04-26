@@ -36,13 +36,13 @@ def main():
       if fish_found:
          print("Postoji")
          pyautogui.rightClick()
-         time.sleep(0.1)
+         time.sleep(0.2)
          pyautogui.rightClick()
       else:
          print("Ne postoji")
       
       # Define sleep_time - how much will program wait before checking again, change this number if needed - lower to increase accuracy at the cost of performance
-      sleep_time = 0.5
+      sleep_time = 0.35
       time.sleep(sleep_time)
 
 
